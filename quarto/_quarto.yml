@@ -1,0 +1,28 @@
+project:
+  type: book
+
+book:
+  title: "Grondbeginselen van de Economie"
+  author: "Saifedean Ammous"
+  date: "11/7/2023"
+  chapters:
+    - index.qmd
+    - over-de-auteur.qmd
+    - inleiding.qmd
+    - part: "Deel 1: Fundamentals"
+      chapters:
+        - ch01.qmd
+        - ch02.qmd
+        - ch03.qmd
+    - references.qmd
+
+bibliography: ../main.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

@@ -1,0 +1,24 @@
+# Over dit boek {.unnumbered}
+
+"Grondbeginselen van de Economie" is een universitair leerboek dat een uitgebreid, boeiend en gemakkelijk leesbaar overzicht biedt van het vakgebied economie. Het heeft waarde voor zowel universiteitsstudenten, algemene lezers als professionele economen.
+
+Het eerste boek van Saifedean Ammous, "De Bitcoin Standaard", is een internationale bestseller die in 36 talen is vertaald. Het boek heeft lof gekregen van gerespecteerde namen, succesvolle ondernemers, professionele sporters en talloze lezers uit de hele wereld vanwege de boeiende en verhelderende uiteenzetting van geavanceerde economische en technische concepten in een stijl die toegankelijk is voor de gewone lezer. Met het vervolg, "De Fiat Standaard", heeft Ammous zichzelf gepositioneerd als een van 's werelds meest effectieve communicatoren van economische ideeën, wiens schrijven weerklank vindt bij een groeiend wereldwijd lezerspubliek.
+
+In "Grondbeginselen van de Economie," zijn meest ambitieuze en uitgebreide werk tot nu toe, biedt Ammous lezers een krachtig tegengif voor het moderne economieboek. Na twee decennia economie te hebben onderwezen op universitair niveau, realiseerde Ammous zich dat de meeste economische leerboeken meer verwarring zaaien dan ze verduidelijken, en dat de meeste universiteitsstudenten er maar weinig uit leren dat nuttig en bruikbaar is. Dit boek, het resultaat van vier jaar werk, maakt gebruik van de ondergewaardeerde benadering van de Oostenrijkse economische school om op een leesbare, boeiende en informatieve manier de principes, methoden en concepten van economie te introduceren. In plaats van te vertrouwen op wiskundige analyses van aggregaten en complexe theoretische modellen, maakt het boek gebruik van helder geschreven taal om belangrijke economische concepten doeltreffend uit te leggen.
+
+Het boek introduceert allereerst de methode van de Oostenrijkse school en de kernbegrippen waarde en tijd. Met deze fundamenten wordt in het tweede deel van het boek onderzocht hoe individuen handelen om hun doelen te bereiken in een context van schaarste - met andere woorden, hoe mensen keuzes maken. Er is een hoofdstuk gewijd aan gedetailleerde overzichten van arbeid, eigendom, kapitaal, technologie en energie, waarbij elk onderwerp wordt verduidelijkt met levendige voorbeelden die de relevantie ervan voor de lezer aantonen. Het derde deel van het boek behandelt economische keuzes binnen de sociale context, met hoofdstukken over handel, geld, de marktorde en kapitalisme - belangrijke begrippen die vaak verkeerd begrepen worden in moderne benaderingen. Het vierde deel van het boek presenteert het Oostenrijkse perspectief op monetaire economie, beginnend met een gedetailleerde uitleg van tijdsvoorkeur, gevolgd door een behandeling van bankieren en krediet, de conjunctuurcyclus en de monetaire oorsprong daarvan. Het laatste deel van het boek legt uit waarom respect voor eigendomsrechten binnen een uitgebreide marktorde de basis vormt voor menselijke beschaving, hoe de marktorde bescherming biedt tegen agressie, en de tekortkomingen van een monopolistische verdediging worden belicht.
+
+### Vertaling
+Arnold Hubach (redactie)
+Vincent Hondius
+Gill Mattheus
+
+© Origineel: Saifedean Ammous - Principles of Economics
+
+© Nederlandse vertaling: Arnold Hubach (editor), Vincent Hondius
+
+Alle rechten voorbehouden
+
+Uitgever: [*Konsensus Network* - The Bitcoin Publishing House](https://konsensus.network)
+
+Website van de auteur: <https://saifedean.com>
