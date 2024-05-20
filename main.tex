@@ -1,5 +1,5 @@
 % universal settings
-\documentclass[smalldemyvopaper,11pt,twoside,onecolumn,openright,extrafontsizes]{memoir}
+\documentclass[smalldemyvopaper,10pt,twoside,onecolumn,openright,extrafontsizes]{memoir}
 
 % PACKAGE DEFINITION
 \usepackage[usenames,dvipsnames]{xcolor}
@@ -39,7 +39,7 @@
 \pgfplotsset{compat=1.18}
 \usepackage{import}
 \usepackage{enumitem}
-\usepackage[footskip=8mm]{geometry}
+\usepackage{geometry}
 
 \usepackage[style=verbose-ibid, backend=biber, sorting=none, dashed=false]{biblatex}
 \setlength\bibitemsep{0.64\baselineskip}
@@ -74,11 +74,11 @@
 
 % PHYSICAL DOCUMENT SETUP
 % media settings: bulk
-\setstocksize{210mm}{148mm}
-\settrimmedsize{210mm}{148mm}{*}
-\setbinding{7mm}
-\setlrmarginsandblock{10mm}{15mm}{*}
-\setulmarginsandblock{17.5mm}{18mm}{*}
+\setstocksize{9in}{6in}
+\settrimmedsize{9in}{6in}{*}
+\setbinding{6mm}
+\setlrmarginsandblock{15mm}{15mm}{*}
+\setulmarginsandblock{26mm}{18mm}{*}
 
 
 % Definitions
@@ -155,24 +155,25 @@
     
 
 % HEADER AND FOOTER MANIPULATION
-% for normal pages
-\nouppercaseheads
-\headsep = 4mm
+  % for normal pages
+  \nouppercaseheads
+  \headsep = 0.4in
+  \makepagestyle{mystyle} 
+  \setlength{\headwidth}{\dimexpr\textwidth+\marginparsep+\marginparwidth\relax}
+  \makerunningwidth{mystyle}{\headwidth}
+  \makeevenhead{mystyle}{}{{\scshape{Grondbeginselen van de Economie}}}{}
+  \makeoddhead{mystyle}{}{{\small\leftmark}}{}
+  \makeevenfoot{mystyle}{}{{\scriptsize\thepage}}{}
+  \makeoddfoot{mystyle}{}{{\scriptsize\thepage}}{}
+  \makeatletter
 
-\makepagestyle{mystyle} 
-\makeevenhead{mystyle}{\footnotesize\thepage}{{\scshape{Grondbeginselen van de Economie}}}{}
-\makeoddhead{mystyle}{}{{\small\leftmark}}{\footnotesize\thepage}
-\makeevenfoot{mystyle}{}{}{}
-\makeoddfoot{mystyle}{}{}{}
-\makeatletter
-
-% for pages where chapters begin
-\makepagestyle{plain}
-\makerunningwidth{plain}{\headwidth}
-\makeevenfoot{plain}{}{{\footnotesize\thepage}}{}
-\makeoddfoot{plain}{}{{\footnotesize\thepage}}{}
+  % for pages where chapters begin
+  \makepagestyle{plain}
+  \makerunningwidth{plain}{\headwidth}
+  \makeevenfoot{plain}{}{{\scriptsize\thepage}}{}
+  \makeoddfoot{plain}{}{{\scriptsize\thepage}}{}
+  \pagestyle{mystyle}
 % END HEADER AND FOOTER MANIPULATION
-\pagestyle{mystyle}
 
 % table of contents customisation
 \usepackage[]{tocloft}
@@ -200,12 +201,16 @@
 \fixpdflayout
 
 \usepackage{fontspec}
-\setmainfont{EB Garamond}
+\setmainfont{Garamond Premier Pro}[
+    Path=./fonts/,
+    UprightFont=* Medium.otf,
+    ItalicFont=* Italic.ttf,
+    BoldFont=* Bold.otf]
 
 % typographical settings for the body text
 \setlength{\parskip}{0em}
 \setlength{\parindent}{1em}
-\linespread{1.12}
+\linespread{1.25}
 
 % don't reset footnotes every chapter
 \usepackage{chngcntr}
@@ -218,21 +223,21 @@
 \titleformat
     {\chapter}
     [display]
-    {\huge\centering\bfseries}
-    {\Large\centering\mdseries\chaptertitlename~~\thechapter}
+    {\HUGE\centering\bfseries}
+    {\huge\centering\mdseries\chaptertitlename~~\thechapter}
     {0pt}
-    {\vspace{28pt}}
+    {\vspace{36pt}}
 
 \titleformat{\part}
 [display]
 {\scshape\centering\normalfont\bfseries}
-{\Large\mdseries\partname ~ \thepart}
+{\huge\mdseries\partname ~ \thepart}
 {0pt}
 {\titlerule[1pt]\vspace{1pc}\HUGE}
 \titlespacing*{\part}{0pt}{100pt}{40pt}
 
 
-\titleformat{\section}[block]{\bfseries\large}{}{0pt}{\centering}[]
+\titleformat{\section}[block]{\bfseries\Large}{}{0pt}{\centering}[]
 \titleformat{\subsection}[block]{\itshape}{}{0pt}{\centering}[]
 \titlespacing*{\section}{0pt}{2em}{0.5em}
 
@@ -386,11 +391,10 @@ Voor mijn vader, die me de meest waardevolle les van dit boek bijbracht, zelfs v
 \cleardoublepage
 \normalfont
 
-\pagestyle{empty}
+\pagestyle{mystyle}
+
 % sisällysluettelo
 \tableofcontents*
-\thispagestyle{empty}
-\pagestyle{mystyle}
 
 % Kirjailijasta
 
@@ -416,19 +420,23 @@ Saifedean was van 2009 tot 2019 economiedocent aan de {Lebanese American Univers
 \input{chapters/ch04}
 \input{chapters/ch05}
 \input{chapters/ch06}
-%\addtocontents{toc}{\protect\newpage}
+\addtocontents{toc}{\protect\newpage}
 \input{chapters/ch07}
 \input{chapters/ch08}
 
 \part{MARKTORDE}
 \input{chapters/ch09}
 \input{chapters/ch10}
+\addtocontents{toc}{\protect\newpage}
+
 \input{chapters/ch11}
 \input{chapters/ch12}
 
 \part{MONETAIRE ECONOMIE}
 \input{chapters/ch13}
 \input{chapters/ch14}
+\addtocontents{toc}{\protect\newpage}
+
 \input{chapters/ch15}
 
 
