@@ -200,7 +200,11 @@
 \fixpdflayout
 
 \usepackage{fontspec}
-\setmainfont{EB Garamond}
+\setmainfont{Garamond Premier Pro}[
+    Path=./fonts/,
+    UprightFont=* Medium.otf,
+    ItalicFont=* Italic.ttf,
+    BoldFont=* Bold.otf]
 
 % typographical settings for the body text
 \setlength{\parskip}{0em}
@@ -297,6 +301,8 @@
 
 % BEGIN THE DOCUMENT
 \begin{document}
+% !TEX program = xelatex
+
 %\righthyphenmin=3
 %\lefthyphenmin=3
 
