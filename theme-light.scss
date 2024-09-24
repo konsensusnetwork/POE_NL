@@ -1,3 +1,19 @@
-.blockquotebox {
-    font-style: italic;
+/*-- scss:defaults --*/
+$h2-font-size:          1.6rem !default;
+$headings-font-weight:  500 !default;
+
+/*-- scss:rules --*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $headings-font-weight;
 }
+
+.blockquotebox {
+  border-left: 2px solid #6b6b6b;
+  padding-left: 1em;
+  font-style: italic;
+  padding-block: 0.5em;
+}
+
+
+
+

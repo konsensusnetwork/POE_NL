@@ -52,7 +52,7 @@ csl: chicago-author-date.csl
 
 format:
   html:
-    theme: [pandoc, theme-light.css]
+    theme: [pandoc, theme-light.scss]
     number-sections: true
     crossref:
       chapters: true
