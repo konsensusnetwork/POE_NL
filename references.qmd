@@ -1,4 +1,24 @@
 # References {.unnumbered}
 
+::: centering
+Ga naar [saifedean.com/poe](https://saifedean.com/poe) om toegang te krijgen tot:
+
+*De volledige literatuurlijst*
+
+*Bibliografie per hoofdstuk*
+
+*Links naar extra leesmateriaal*
+
+En binnenkort:
+
+*Een studiegids van het boek*
+
+*Een online lessenpakket gebaseerd op de inhoud van dit leerboek*
+:::
+
+::: center
+![image](figures/saifedean_poe_qr_code.png){width="3cm"}
+:::
+
 ::: {#refs}
 :::

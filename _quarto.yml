@@ -2,20 +2,57 @@ project:
   type: book
 
 book:
-  title: "POE_NL"
-  author: "Norah Jones"
+  title: "Grondbeginselen van de Economie"
+  subtitle: "Als intellectueel weerwoord tegen de Keynesiaanse economische denkwijze"
+  author: "Saifedean Ammous"
+  translator: "Gill Mattheus & Vincent Hondius"
+  cover-image: cover.png
+  isbn: "978-9916-723-91-3"
+  language: nl
+  original-title: "Principles of Economics"
   date: "9/24/2024"
+  open-graph: true
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - chapters/ch00.qmd
+    - chapters/ch00b.qmd
+    - part: "FUNDAMENTEN"
+      chapters:
+        - chapters/ch01.qmd
+        - chapters/ch02.qmd
+        - chapters/ch03.qmd
+    - part: "ECONOMIE"
+      chapters:
+        - chapters/ch04.qmd
+        - chapters/ch05.qmd
+        - chapters/ch06.qmd
+        - chapters/ch07.qmd
+        - chapters/ch08.qmd
+        - chapters/ch09.qmd
+    - part: "MARKTORDE"
+      chapters:
+        - chapters/ch10.qmd
+        - chapters/ch11.qmd
+        - chapters/ch12.qmd
+    - part: "MONETAIRE ECONOMIE"
+      chapters:
+        - chapters/ch13.qmd
+        - chapters/ch14.qmd
+        - chapters/ch15.qmd
+    - part: "BESCHAVING"
+      chapters:
+        - chapters/ch16.qmd
+        - chapters/ch17.qmd
+        - chapters/ch18.qmd
+    - chapters/chXX.qmd
     - references.qmd
 
-bibliography: references.bib
+bibliography: main.bib
+csl: chicago-author-date.csl
 
 format:
   html:
-    theme: cosmo
+    theme: [pandoc, theme-light.css]
   pdf:
     documentclass: scrreprt
 
