@@ -3,10 +3,8 @@
 ::: blockquotebox
 In een markteconomie, een sociaal systeem gebaseerd op arbeidsdeling en privaat eigendom van productiemiddelen, handelt iedereen uit eigenbelang. Dit eigenbelang dient echter tegelijkertijd de behoeften van anderen. Zo dient ieders handelen zijn medemens, terwijl hij ook door anderen gediend wordt. In dit systeem fungeert iedereen zowel als middel voor de doelen van anderen, als ook als een doel op zichzelf, strevend naar persoonlijke doelstellingen.
 
---- Ludwig von Mises
+--- Ludwig von Mises[@123]
 :::
-
-[@123]
 
 Geld maakt specialisatie en arbeidsdeling mogelijk, wat het ontstaan en de groei van een markteconomie bevordert. **Een markteconomie is een sociale orde waarin mensen in staat zijn om in zeer grote aantallen samen te werken aan economische productie, waarbij ze elkaar vrijwillig goederen en diensten leveren voor alle betrokkenen, zonder dat een dwingende autoriteit hun handelen dicteert en coördineert.**
 
@@ -17,10 +15,8 @@ In een markteconomie hoeven individuen niet na te denken over hun eigen producti
 Het wonder van de markteconomie, dat vaak onderschat wordt, is de manier waarop het samenwerking tussen mensen mogelijk maakt zonder dwang, centrale regie of sociale verplichtingen. Wat de activiteiten van producenten binnen de arbeidsdeling coördineert, is hun vermogen om economische berekeningen uit te voeren over het optimale gebruik van hun middelen. Dit doen ze met behulp van een gemeenschappelijke maatstaf, namelijk de monetaire prijs, oftewel de prijs uitgedrukt in geld. Naarmate een economie groeit tot een niveau waarop alle economische goederen op een markt kunnen worden gekocht en verkocht in ruil voor één ander goed, kunnen deelnemers aan de economie de verschillende kosten en baten van elke handelswijze berekenen en vergelijken met hun eigen voorkeuren en met de beschikbare alternatieven. De vrijheid die iedereen heeft om zijn voorkeuren uit te drukken door middel van economisch handelen, geeft iedereen de zelfzuchtige prikkel om te handelen op een manier die aan de behoeften van anderen voldoet. Het is geen autoriteit of geweld dat het handelen van mensen bepaalt, maar hun verlangen om aan hun eigen behoeften te voldoen, volgens de berekeningen die ze uitvoeren op basis van prijzen die de voorkeuren van andere deelnemers aan de markt uitdrukken. Zoals Mises het stelde:
 
 ::: blockquotebox
-Markthandel en monetaire calculatie zijn onlosmakelijk met elkaar verbonden. Een markt waarin alleen directe ruilhandel plaatsvindt, is slechts een denkbeeldig idee. Aan de andere kant worden geld en monetaire calculatie bepaald door het bestaan van de markt.
+Markthandel en monetaire calculatie zijn onlosmakelijk met elkaar verbonden. Een markt waarin alleen directe ruilhandel plaatsvindt, is slechts een denkbeeldig idee. Aan de andere kant worden geld en monetaire calculatie bepaald door het bestaan van de markt.[@124]
 :::
-
-[@124]
 
 Wanneer de marktprijs van alle goederen wordt gemeten ten opzichte van één goed, kunnen we individuele prijzen vergelijken, zowel met andere prijzen als met hun eigen subjectieve waarderingen, en vervolgens consumptie- en productiebeslissingen nemen. Zoals al besproken in het eerste hoofdstuk van het boek, is waarde subjectief. Het kan niet objectief gemeten worden, omdat er geen constante eenheid bestaat waartegen het gemeten kan worden. Maar wanneer een individu op een markt zijn eigen keuzes maakt, weegt hij economische keuzes af tegen zijn subjectieve waarderingen. De waarden zijn misschien niet meetbaar met een constante eenheid, maar ze zijn wel vergelijkbaar met één constant referentiekader: het individu dat de waardering maakt. Door zijn eigen voorkeuren te kennen, kan de mens de verschillende voorkeuren ordenen. Hoewel we geen kardinale, numerieke waarderingen kunnen toekennen aan verschillende opties, kunnen we ze wel rangschikken op basis van onze eigen voorkeur. In dit hoofdstuk wordt een wiskundig grafisch model uitgewerkt om na te denken over hoe deze beslissingen worden genomen in de context van een markteconomie.
 
@@ -180,36 +176,28 @@ We kunnen het marktsysteem zien als het grotere kader waarbinnen al het eerder b
 Marktdeelnemers communiceren hun veranderende voorkeuren en voorwaarden aan elkaar door te beslissen om tegen bepaalde prijzen wel of niet te kopen. Dit proces van wederzijdse samenwerking stelt alle marktdeelnemers in staat om in hun eigen belang te handelen, terwijl ze hun handelingen coördineren om elkaar beter van dienst te zijn. Alle voorkeuren van consumenten worden aan andere marktdeelnemers kenbaar gemaakt door hun keuzes om tegen een bepaalde prijs wel of niet te kopen, waardoor producenten waardevolle kennis krijgen waarmee ze hun productiebeslissingen kunnen maken. Zoals Mises het stelde:
 
 ::: blockquotebox
-Het marktproces is de aanpassing van de individuele handelingen van de verschillende marktdeelnemers aan de vereisten van onderlinge samenwerking. De marktprijzen vertellen de producenten wat ze moeten produceren, hoe ze moeten produceren en in welke hoeveelheid. De markt is het brandpunt waar de activiteiten van de individuen samenkomen.
+Het marktproces is de aanpassing van de individuele handelingen van de verschillende marktdeelnemers aan de vereisten van onderlinge samenwerking. De marktprijzen vertellen de producenten wat ze moeten produceren, hoe ze moeten produceren en in welke hoeveelheid. De markt is het brandpunt waar de activiteiten van de individuen samenkomen.[@125]
 :::
-
-[@125]
 
 Mises voegt hier verder aan toe:
 
 ::: blockquotebox
-In de natuur heersen onverzoenlijke belangenconflicten. De middelen voor levensonderhoud zijn schaars. De groei van populaties heeft de neiging om het bestaansminimum te overtreffen. Alleen de sterkste planten en dieren overleven. De vijandschap tussen een dier dat verhongert en een ander dat het voedsel wegkaapt is onverbiddelijk. Sociale samenwerking door arbeidsdeling lost zulke vijandigheid op. Het vervangt vijandigheid door samenwerking en wederkerigheid. De leden van de samenleving zijn verenigd in een gemeenschappelijke onderneming.
+In de natuur heersen onverzoenlijke belangenconflicten. De middelen voor levensonderhoud zijn schaars. De groei van populaties heeft de neiging om het bestaansminimum te overtreffen. Alleen de sterkste planten en dieren overleven. De vijandschap tussen een dier dat verhongert en een ander dat het voedsel wegkaapt is onverbiddelijk. Sociale samenwerking door arbeidsdeling lost zulke vijandigheid op. Het vervangt vijandigheid door samenwerking en wederkerigheid. De leden van de samenleving zijn verenigd in een gemeenschappelijke onderneming.[@126]
 :::
-
-[@126]
 
 ## Consumentensoevereiniteit
 
 De zorgvuldige analyse van het marktproces illustreert waarom de consument in een vrije markt koning is. Individuen zijn in een markteconomie soeverein in hun hoedanigheid als consument, omdat de producenten geen manier hebben om hen te dwingen hun goederen te kopen, behalve door goederen te produceren die voldoen aan de behoeften en verlangens van de consument tegen een prijs die zij zich kunnen veroorloven. Producenten investeren hun kapitaal in het productieproces en zijn afhankelijk consumenten die hun product goed vinden, zodat hun investering niet verloren gaat. Producenten bevinden zich niet in een positie om de voorwaarden te dicteren of consumenten uit te buiten; die hebben alle keuze. Zoals Mises uitlegt:
 
 ::: blockquotebox
-Als ze er niet op uit waren om op de goedkoopste markt aankopen te doen en hun productiefactoren zo in te richten dat ze op de beste en goedkoopste manier aan de vraag van de consumenten konden voldoen, dan zouden ze gedwongen worden om hun bedrijf te stoppen. Efficiëntere mensen die er beter in slagen de productiefactoren te kopen en te verwerken, zouden hen vervangen. De consument bevindt zich in een positie waarin hij zijn opwellingen en wensen de vrije loop kan laten. De ondernemers, kapitalisten en boeren hebben geen keuze; ze zijn verplicht om zich in hun bedrijfsvoering te houden aan de wensen van het kopende publiek. Elke afwijking van de lijnen die zijn voorgeschreven door de vraag van de consumenten is voor eigen rekening. De kleinste afwijking, bewust gekozen of veroorzaakt door fouten, slecht beoordelingsvermogen of onnauwkeurigheid, beperkt hun winsten of doet ze zelfs helemaal verdwijnen. Een ernstigere afwijking resulteert in verliezen en tast zo hun vermogen aan of slokt dit volledig op. Kapitalisten, ondernemers en landeigenaren kunnen hun rijkdom alleen behouden en vergroten door de orders van consumenten zo goed mogelijk uit te voeren.
+Als ze er niet op uit waren om op de goedkoopste markt aankopen te doen en hun productiefactoren zo in te richten dat ze op de beste en goedkoopste manier aan de vraag van de consumenten konden voldoen, dan zouden ze gedwongen worden om hun bedrijf te stoppen. Efficiëntere mensen die er beter in slagen de productiefactoren te kopen en te verwerken, zouden hen vervangen. De consument bevindt zich in een positie waarin hij zijn opwellingen en wensen de vrije loop kan laten. De ondernemers, kapitalisten en boeren hebben geen keuze; ze zijn verplicht om zich in hun bedrijfsvoering te houden aan de wensen van het kopende publiek. Elke afwijking van de lijnen die zijn voorgeschreven door de vraag van de consumenten is voor eigen rekening. De kleinste afwijking, bewust gekozen of veroorzaakt door fouten, slecht beoordelingsvermogen of onnauwkeurigheid, beperkt hun winsten of doet ze zelfs helemaal verdwijnen. Een ernstigere afwijking resulteert in verliezen en tast zo hun vermogen aan of slokt dit volledig op. Kapitalisten, ondernemers en landeigenaren kunnen hun rijkdom alleen behouden en vergroten door de orders van consumenten zo goed mogelijk uit te voeren.[@127]
 :::
-
-[@127]
 
 Mises vergelijkt de macht van consumenten in de markt vervolgens met het democratische proces en laat zien dat het superieur is, omdat het tegemoet komt aan de behoeften van iedereen, terwijl democratie alleen tegemoet komt aan de behoeften van de winnende meerderheid:
 
 ::: blockquotebox
-Met elke cent die wordt uitgegeven bepalen de consumenten de richting van alle productieprocessen en de details van de organisatie van alle bedrijfsactiviteiten. Deze stand van zaken is beschreven door de markt een democratie te noemen waarin elke cent het recht geeft om te stemmen. Het zou correcter zijn om te zeggen dat een democratische grondwet een plan is om aan de burgers in het bestuur dezelfde macht toe te kennen die de markteconomie hen geeft in hun mogelijkheden als consumenten. De vergelijking is echter niet perfect. In de politieke democratie zijn alleen de stemmen die uitgebracht worden voor de kandidaat of het plan van de meerderheid effectief om de gang van zaken vorm te geven. De stemmen van de minderheid hebben geen directe invloed op het beleid. Maar op de markt wordt geen enkele stem tevergeefs uitgebracht. Elke cent die wordt uitgegeven heeft de macht om de productieprocessen te beïnvloeden. Boekuitgevers bedienen niet alleen de meerderheid door detectives te publiceren, maar ook de minderheid die lyrische poëzie en filosofische geschriften leest. De bakkerijen bakken niet alleen brood voor gezonde mensen, maar ook voor zieken met een speciaal dieet. De beslissing van een consument wordt uitgevoerd met de volledige vaart die hij er achter zet met zijn bereidheid om een bepaald geldbedrag uit te geven.
+Met elke cent die wordt uitgegeven bepalen de consumenten de richting van alle productieprocessen en de details van de organisatie van alle bedrijfsactiviteiten. Deze stand van zaken is beschreven door de markt een democratie te noemen waarin elke cent het recht geeft om te stemmen. Het zou correcter zijn om te zeggen dat een democratische grondwet een plan is om aan de burgers in het bestuur dezelfde macht toe te kennen die de markteconomie hen geeft in hun mogelijkheden als consumenten. De vergelijking is echter niet perfect. In de politieke democratie zijn alleen de stemmen die uitgebracht worden voor de kandidaat of het plan van de meerderheid effectief om de gang van zaken vorm te geven. De stemmen van de minderheid hebben geen directe invloed op het beleid. Maar op de markt wordt geen enkele stem tevergeefs uitgebracht. Elke cent die wordt uitgegeven heeft de macht om de productieprocessen te beïnvloeden. Boekuitgevers bedienen niet alleen de meerderheid door detectives te publiceren, maar ook de minderheid die lyrische poëzie en filosofische geschriften leest. De bakkerijen bakken niet alleen brood voor gezonde mensen, maar ook voor zieken met een speciaal dieet. De beslissing van een consument wordt uitgevoerd met de volledige vaart die hij er achter zet met zijn bereidheid om een bepaald geldbedrag uit te geven.[@128]
 :::
-
-[@128]
 
 ## Een contrast van benaderingen
 

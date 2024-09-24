@@ -3,10 +3,8 @@
 ::: blockquotebox
 Overal waar we naar beschavingen kijken, treffen we een systeem aan dat op grote schaal in de toekomstige menselijke behoeften voorziet. Terwijl we nog onze winterkleding dragen om ons tegen de kou te beschermen, is de lente-collectie al onderweg naar de winkels. In de fabrieken worden ondertussen lichte stoffen geweven voor de kleding die we volgende zomer zullen dragen, en worden garens gesponnen voor de winterkleding van het jaar daarop. Wanneer we ziek worden, is de hulp van een arts noodzakelijk. Bij juridische conflicten is het advies van een advocaat onmisbaar. In dergelijke situaties zou het veel te laat zijn om op dat moment pas te beginnen met het verwerven van de benodigde medische of juridische kennis en vaardigheden, of om te proberen de gespecialiseerde opleiding van anderen te organiseren, zelfs als men over de benodigde middelen zou beschikken. In ontwikkelde landen worden de behoeften van de samenleving aan dergelijke diensten op tijd ingevuld door ervaren en deskundige professionals, die zich jaren van tevoren al op hun vakgebied hebben voorbereid en sindsdien uitgebreide praktijkervaring hebben opgedaan. Terwijl we zo profiteren van de vooruitziendheid uit het verleden, worden velen op onze universiteiten opgeleid om in de toekomst aan de behoeften van de samenleving te voldoen.
 
---- Carl Menger
+--- Carl Menger[@58]
 :::
-
-[@58]
 
 In het vorige hoofdstuk bespraken we het begrip eigendom in economische termen en de ontwikkeling van dit menselijke hulpmiddel in de loop van de tijd. De economische wetenschap maakt binnen alle vormen van eigendom een onderscheid tussen consumptiegoederen, die eigendom zijn voor het nut dat ze hen bieden, en kapitaalgoederen, die we bezitten omdat ze gebruikt kunnen worden om nuttige consumptiegoederen te produceren. Kapitaalgoederen, ook goederen van hogere orde genoemd, zijn alle goederen die niet geconsumeerd worden, maar die worden gebruikt voor de productie van consumptiegoederen of goederen van een lagere orde. Wat van een goed een consumptiegoed of kapitaalgoed maakt, is niet inherent aan het goed zelf, maar hangt af van hoe het goed gebruikt wordt door de persoon die het bezit. Hetzelfde goed kan gebruikt worden als kapitaalgoed of als consumptiegoed, afhankelijk van de context. Een computer die gebruikt wordt om films te kijken en op het web te surfen is een consumptiegoed, maar dezelfde computer die gebruikt wordt om een boek te schrijven is een kapitaalgoed. Een auto kan een kapitaalgoed zijn als hij als taxi gebruikt wordt, maar een consumptiegoed als hij puur voor recreatieve reizen gebruikt wordt. Maïskorrels kunnen een consumptiegoed zijn als ze opgegeten worden, maar een kapitaalgoed als ze geplant worden om meer maïs te verbouwen.
 
@@ -25,10 +23,8 @@ Als iemand ervoor zou kiezen om vis met zijn handen te vangen, dan zou de produc
 ::: blockquotebox
 De onmisbare voorwaarde voor elke verlenging van het productieproces is sparen, ofwel, een overproductie ten opzichte van het huidige verbruik. Sparen is de eerste stap op weg naar verbetering van het materiële welzijn en naar elke verdere vooruitgang op dit pad.
 
---- Ludwig von Mises
+--- Ludwig von Mises[@60]
 :::
-
-[@60]
 
 Het verlengen van de productietijd kan niet plaatsvinden zonder eerst de consumptiegoederen te leveren die nodig zijn om de producenten tijdens het productieproces in stand te houden. Voorzieningen voor de toekomst treffen maakt het mogelijk om productieprocessen te starten die langer en productiever zijn. Maar de mens kan alleen middelen sparen voor de toekomst als hij in staat is om aan zijn huidige behoeften te voldoen. De boer moet genoeg graan produceren om zichzelf te voeden voordat hij graan kan zaaien, en elk graan dat hij zaait, is graan dat hij dit jaar niet kan consumeren. Als de visser een dag gaat besteden aan het bouwen van een hengel, moet hij eerst al voor deze dag hebben gezorgd vanuit zijn productie van de vorige dag door het uitstellen van een deel van de mogelijke consumptie tijdens deze vorige dag. Het is onmogelijk om een hengel te bouwen zonder vrije tijd op te geven, dat een positief nut heeft, of arbeid waarmee consumptiegoederen met een positief nut worden geproduceerd. Sparen is de moeder van kapitaal; alleen door consumptie uit te stellen kunnen kapitaalgoederen bestaan.
 
@@ -92,18 +88,14 @@ Om kapitalist te worden, moet je eerst iets van waarde produceren waarvoor ander
 Dit zijn de redenen waarom kapitaalbezit zo waardevol en productief is, en waarom werknemers ervoor kiezen om voor eigenaren van kapitaal te blijven werken. Zoals Murray Rothbard het verwoordde:
 
 ::: blockquotebox
-Alle werknemers zouden kunnen weigeren om voor lonen te werken, zouden ze dat willen, en in plaats daarvan hun eigen productiecoöperaties vormen. Ze zouden jaren kunnen wachten om betaald te worden tot de producten aan de consumenten zijn verkocht. Het feit dat ze dit niet doen, toont het enorme voordeel van het systeem van kapitaalinvestering en loonbetaling. Dit systeem stelt werknemers in staat om ver voor de verkoop van hun producten geld te verdienen. In plaats van uitbuiting van de werknemers, is kapitaalinvestering en het systeem van winsten en rentes een enorme zegen voor hen en voor de hele samenleving.
+Alle werknemers zouden kunnen weigeren om voor lonen te werken, zouden ze dat willen, en in plaats daarvan hun eigen productiecoöperaties vormen. Ze zouden jaren kunnen wachten om betaald te worden tot de producten aan de consumenten zijn verkocht. Het feit dat ze dit niet doen, toont het enorme voordeel van het systeem van kapitaalinvestering en loonbetaling. Dit systeem stelt werknemers in staat om ver voor de verkoop van hun producten geld te verdienen. In plaats van uitbuiting van de werknemers, is kapitaalinvestering en het systeem van winsten en rentes een enorme zegen voor hen en voor de hele samenleving.[@64]
 :::
-
-[@64]
 
 **In een economisch systeem van de vrije markt is de mate waarin een individu kapitaal bezit gelijk aan de mate waarin hij mensen voldoende kan bedienen om zijn kapitaal te behouden.** Er is geen privilege of erfenis die hierboven staat, noch een rijkdom te groot. Als je je klanten niet bedient, zal je kapitaal in waarde afnemen tot het uiteindelijk nutteloze rommel wordt die moet worden afgedankt. Kapitaal bezitten, zo legde Mises uit, is een verantwoordelijkheid en een kwetsbaarheid, geen privilege.
 
 ::: blockquotebox
-Kapitalisten en grondeigenaren moeten hun eigendom gebruiken voor de best mogelijke voldoening van de consumenten. Als ze hun verplichtingen traag en onbekwaam nakomen, worden ze afgestraft met verliezen. Als ze de les niet leren en hun gedrag niet verbeteren, verliezen ze hun rijkdom. Geen investering is voor altijd veilig.
+Kapitalisten en grondeigenaren moeten hun eigendom gebruiken voor de best mogelijke voldoening van de consumenten. Als ze hun verplichtingen traag en onbekwaam nakomen, worden ze afgestraft met verliezen. Als ze de les niet leren en hun gedrag niet verbeteren, verliezen ze hun rijkdom. Geen investering is voor altijd veilig.[@65]
 :::
-
-[@65]
 
 Moderne economische scholen doceren de realiteit van economie niet als de studie van menselijk handelen. Daardoor kunnen hun aanhangers het harde werk, de opoffering en risicos die nodig zijn om eigenaar van kapitaal te worden, niet begrijpen. Deze onmacht om oorzaak en gevolg te begrijpen leidt ertoe dat kapitaal wordt voorgesteld als een soort hemels privilege dat aan een bepaald soort mensen wordt toegekend. Je behoort tot die soort of je behoort er niet toe. Er is weinig waardering of begrip voor de acties die nodig zijn om kapitaal op te bouwen en het succesvol te behouden. Als gevolg hiervan verspillen veel mensen hun tijd en de vruchten van hun arbeid, door bitter te klagen over kapitaal in plaats van te werken om het te verwerven en hun productiviteit en levensstandaard te verhogen. Deze economische onwetendheid is de wind in de zeilen van demagoog-politici die het uitbuiten om aan de macht te komen en deze te gebruiken om eigenaars van kapitaal te onteigenen.
 
@@ -114,10 +106,8 @@ De minachting en het zwart maken van kapitaalbezit door Keynesianen en Marxisten
 ::: blockquotebox
 Een tijdsvoorkeur die laag genoeg is om sparen en kapitaalvorming of de productie van duurzame consumptiegoederen mogelijk te maken, zet een neiging tot verdere daling ervan in gang. Dit gaat gepaard met een 'proces van beschaving'.
 
---- Hans-Hermann Hoppe
+--- Hans-Hermann Hoppe[@66]
 :::
-
-[@66]
 
 De kosten van kapitaalaccumulatie liggen in de opofferingen van huidige goederen om middelen te kunnen investeren in de productie van toekomstige goederen. Hoe hoger mensen het heden ten opzichte van de toekomst waarderen, oftewel hoe hoger hun tijdsvoorkeur is, hoe minder ze geneigd zullen zijn om consumptie uit te stellen en te investeren in toekomstige productie. Naarmate hun tijdsvoorkeur afneemt en hun waardering voor de toekomst toeneemt, zullen ze eerder afzien van huidige consumptie in een streven naar toekomstige rendementen. Voor zover bekend, kunnen kapitaalgoederen niet uit het niets getoverd worden door verbeelding of wensdenken. De enige manier om kapitaalgoederen te maken, ligt in het uitstel van de consumptie van huidige goederen. Zoals alle economische verschijnselen, kan kapitaal alleen begrepen worden in termen van menselijk handelen en de handelingen die nodig zijn om het te laten gebeuren. De beperking van kapitaalaccumulatie is niet iets natuurlijks of fysieks; ze is menselijk en het ligt er net aan hoeveel van hun productie mensen willen investeren in toekomstige productie versus huidige consumptie. **Met andere woorden, de beperkende factor op de productie van kapitaal is de tijdsvoorkeur.** Zoals Hoppe uitlegde: 'Hoe lager de tijdsvoorkeur, hoe eerder het proces van kapitaalvorming begint en hoe sneller de productiestructuur grosso modo zal worden verlengd.' [@67]
 
@@ -126,10 +116,8 @@ Aangezien tijdsvoorkeur de beperkende factor op de productie van kapitaal is, vo
 Aangezien tijdsvoorkeur positief is, stimuleert alleen de verwachting van een positief reëel rendement tot sparen. De waarde van kapitaalgoederen wordt geheel afgeleid van de goederen die ze produceren; kapitaal heeft geen waarde onafhankelijk van het product ervan omdat het mensen geen direct nut biedt als consumptiegoed; het heeft alleen nut voor zover het goederen met gebruikswaarde kan produceren. Alleen investeringen in activiteiten die een positief rendement bieden qua nut en eindproducten, worden ondernomen. Zoals Rothbard stelde:
 
 ::: blockquotebox
-We kunnen de gehele handeling van het beslissen of we een daad van kapitaalvorming wel of niet uitvoeren uitleggen als het afwegen van relatieve nuttigheden. Deze worden verdisconteerd door de tijdsvoorkeur van de beslisser en ook door de onzekerheidsfactor.
+We kunnen de gehele handeling van het beslissen of we een daad van kapitaalvorming wel of niet uitvoeren uitleggen als het afwegen van relatieve nuttigheden. Deze worden verdisconteerd door de tijdsvoorkeur van de beslisser en ook door de onzekerheidsfactor.[@68]
 :::
-
-[@68]
 
 Wanneer iemand de toekomstige opbrengst van het productieproces hoger waardeert dan de benodigde initiële investering, rekening houdend met zijn tijdsvoorkeur en onzekerheid, is hij geneigd om te investeren en kapitaalgoederen te produceren of aan te schaffen. Mocht de investering slagen, dan kan hij meer van de middelen gebruiken om meer kapitaalgoederen te verwerven, waardoor zijn winsten en productiviteit verder toenemen. Naarmate de voorraad aan kapitaal en productiviteit in de loop van de tijd toeneemt, wordt hij minder onzeker over zijn financiële toekomst. Dit verlaagt zijn tijdsvoorkeur verder, wat meer kapitaalaccumulatie aanmoedigt. Naarmate er in de samenleving meer kapitaal wordt opgebouwd en de tijdsvoorkeur afneemt, daalt ook de prijs van kapitaal (die wordt bepaald door de rente). Dit proces van het verlagen van tijdsvoorkeur en toenemende investeringen kan begrepen worden als het proces van beschaving.
 

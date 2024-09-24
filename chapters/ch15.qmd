@@ -3,10 +3,8 @@
 ::: blockquotebox
 Kredietexpansie kan kapitaal niet vervangen.
 
---- Ludwig von Mises
+--- Ludwig von Mises[@166]
 :::
-
-[@166]
 
 ## Circulatiekrediet
 
@@ -25,10 +23,8 @@ Geld is, zoals besproken in Hoofdstuk 10, uniek omdat het het enige goed is dat 
 ::: blockquotebox
 De bijzondere houding van mensen ten aanzien van transacties waarbij circulatiekrediet betrokken is, is te verklaren doordat vorderingen op geld kunnen worden gebruikt voor alle transacties, in plaats van geld zelf. Wie geld nodig heeft, om het uit te lenen, om iets te kopen, om schulden te vereffenen, of om belastingen te betalen, is niet eerst verplicht om de geldvorderingen (biljetten of banktegoeden) om te zetten in geld; de vorderingen zelf kunnen ook direct gebruikt worden als betaalmiddel. Ze zijn dus eigenlijk geldsubstituten; ze vervullen de monetaire functie op dezelfde manier als geld; het is in feite contant geld dat direct kan worden uitgegeven, en geen geld dat pas in toekomst beschikbaar wordt.
 
-Iemand die duizend broden bezit, zal niet meer dan duizend coupons uitgeven die elke bezitter het recht geven om te allen tijde een brood op te eisen. Met geld ligt dit anders. Omdat niemand geld op zich waardeert, maar het slechts wenst te gebruiken als ruilmiddel voor iets anders, is het zeer wel mogelijk dat er schuldbewijzen voor in de plaats komen. Deze schuldbewijzen kunnen van hand tot hand gaan zonder dat iemand daadwerkelijk probeert het ermee verbonden recht op te eisen.
+Iemand die duizend broden bezit, zal niet meer dan duizend coupons uitgeven die elke bezitter het recht geven om te allen tijde een brood op te eisen. Met geld ligt dit anders. Omdat niemand geld op zich waardeert, maar het slechts wenst te gebruiken als ruilmiddel voor iets anders, is het zeer wel mogelijk dat er schuldbewijzen voor in de plaats komen. Deze schuldbewijzen kunnen van hand tot hand gaan zonder dat iemand daadwerkelijk probeert het ermee verbonden recht op te eisen.[@167]
 :::
-
-[@167]
 
 Door hun unieke eigenschappen kunnen fiduciaire middelen, zoals bankbiljetten en bankrekeningen die door de bank zijn uitgegeven, als geld functioneren. Ze kunnen worden gebruikt voor de aankoop van goederen of diensten en als betaling worden geaccepteerd zonder dat ze bij de uitgevende bank ingewisseld moeten worden voor contant geld. Deze fiduciaire middelen dienen als ruilmiddel, zonder ze om te moeten zetten in geld. Belangrijk is dat fiduciaire middelen fundamenteel verschillen van bankbiljetten die volledig gedekt zijn door contanten, die de bank op verzoek beschikbaar heeft: de uitgifte van fiduciaire middelen vergt geen opoffering van de kant van de uitgever. Wanneer bankbiljetten worden uitgegeven met een 100% dekking, blijft de totale geldhoeveelheid ongewijzigd. Echter, bij de uitgifte van fiduciaire middelen neemt de geldvoorraad toe. Terwijl het delven van goud een kostbare en onzekere activiteit is, waarvan de kosten vaak in de buurt komen van de verwachte opbrengst van het goud, brengt de uitgifte van fiduciaire middelen een uitbreiding van de geldvoorraad met zich mee zonder significante kosten voor de uitgevende bank. Deze toename van de geldhoeveelheid heeft natuurlijk invloed op de marktwaarde van geld, met verstrekkende gevolgen die door de Oostenrijkse School al meer dan een eeuw zorgvuldig worden geanalyseerd, en die in de volgende secties worden besproken.
 
@@ -39,10 +35,8 @@ Door de bijzondere aard van geld, als een goed dat niet geconsumeerd wordt, kunn
 ::: blockquotebox
 Mises ontwikkelde een uitgebreide typologie van monetaire objecten -- in Mengeriaanse taal kunnen we dit verwoorden als alle dingen die algemeen aanvaard worden als ruilmiddelen. Op het meest fundamentele niveau maakte hij een onderscheid tussen verschillende soorten 'geld in de nauwe zin' en 'geldsurrogaten of --substituten'. Geld in nauwe zin is een goed op zichzelf, terwijl geldsubstituten daarentegen wettelijke vorderingen zijn op geld in nauwe zin. Ze worden meestal uitgegeven door banken en zijn terugbetaalbaar in echt geld aan de loketten van de bank die ze uitgeeft.
 
-Bij het vaststellen van dit fundamentele onderscheid tussen geld en geldvorderingen paste hij cruciale inzichten toe van Böhm-Bawerks baanbrekende werk over de economie van rechtspersonen. Hij benadrukte: 'Vorderingen zijn geen goederen; het zijn middelen om beschikking te krijgen over goederen. Dit kenmerkt hun hele aard en economische betekenis.' Zoals zijn uiteenzetting in latere delen van het boek zou laten zien, is dit onderscheid van groot belang, zowel voor de integratie van de monetaire theorie binnen het kader van Mengers theorie van waarde en prijzen, als voor de analyse van de rol van het bankwezen binnen het monetaire systeem. De kern van zijn theorie over bankieren is een vergelijkende analyse van de economische betekenis van twee zeer verschillende soorten geldsubstituten. Mises merkte op dat geldsubstituten ofwel gedekt kunnen zijn door een overeenkomstige geldhoeveelheid, in welk geval ze 'geldcertificaten' zijn, of ze kunnen een dergelijke dekking missen, in welk geval ze fiduciaire middelen of 'Umlaufsmittel' zijn. Mises wijdt het derde en laatste deel van zijn boek aan een analyse van de economische gevolgen van het gebruik van Umlaufsmittel.
+Bij het vaststellen van dit fundamentele onderscheid tussen geld en geldvorderingen paste hij cruciale inzichten toe van Böhm-Bawerks baanbrekende werk over de economie van rechtspersonen. Hij benadrukte: 'Vorderingen zijn geen goederen; het zijn middelen om beschikking te krijgen over goederen. Dit kenmerkt hun hele aard en economische betekenis.' Zoals zijn uiteenzetting in latere delen van het boek zou laten zien, is dit onderscheid van groot belang, zowel voor de integratie van de monetaire theorie binnen het kader van Mengers theorie van waarde en prijzen, als voor de analyse van de rol van het bankwezen binnen het monetaire systeem. De kern van zijn theorie over bankieren is een vergelijkende analyse van de economische betekenis van twee zeer verschillende soorten geldsubstituten. Mises merkte op dat geldsubstituten ofwel gedekt kunnen zijn door een overeenkomstige geldhoeveelheid, in welk geval ze 'geldcertificaten' zijn, of ze kunnen een dergelijke dekking missen, in welk geval ze fiduciaire middelen of 'Umlaufsmittel' zijn. Mises wijdt het derde en laatste deel van zijn boek aan een analyse van de economische gevolgen van het gebruik van Umlaufsmittel.[^23]
 :::
-
-[^23]
 
 De term 'geld' wordt in brede kring gebruikt om te verwijzen naar zowel geld als geldsubstituten. Mises verduidelijkt het onderscheid op een manier die de Oostenrijkse analyse van de conjunctuurcyclus helpt verklaren. Geld, in de nauwere zin, kan drie vormen aannemen:
 
@@ -78,10 +72,8 @@ Hoewel moderne gecentraliseerde overheden hun fysieke munten niet langer ontwaar
 De gangbare economische stromingen zijn uiterst voorzichtig bij het beantwoorden van de vraag wat de oorzaak is van conjunctuurcycli, en daar is een goede reden voor. Aangezien de moderne economische wetenschap grotendeels door centrale banken wordt gefinancierd om informatie voor beleidsvorming te leveren, is het erg onwaarschijnlijk dat iemand wiens conclusies niet vleiend zijn voor centrale banken een succesvolle carrière kan verwachten.[@173] Mainstream economisch onderzoek heeft zich voornamelijk gericht op discussies over hoe recessies kunnen worden voorkomen en gaf daarbij zeer weinig aandacht voor wat recessies eigenlijk veroorzaakt. Het is kinderachtig om te proberen een probleem op te lossen zonder de oorzaken ervan te begrijpen, maar met fiatgeld kunnen centrale banken proberen hun eigen realiteit te creëren. Dit doen ze door onderzoek te financieren dat gericht is op het vinden van oplossingen en door wetenschappers die kritisch staan tegenover centrale banken te marginaliseren. Deze benadering werd het best geïllustreerd in Krugmans inleiding op een recente herdruk van Keynes *General Theory*, waarin Krugman het onvermogen van Keynes om een verklaring te bieden voor de oorzaken van de conjunctuurcyclus prijst:
 
 ::: blockquotebox
-In plaats van zich te verliezen in een poging om de dynamiek van de conjunctuurcyclus te verklaren -- een onderwerp dat tot op de dag van vandaag omstreden blijft -- richtte Keynes zich op een vraag die beantwoord kon worden. En die \... het hardst een antwoord nodig had: hoe kunnen we dan meer werkgelegenheid creëren als de algemene vraag laag is -- ongeacht de oorzaak?
+In plaats van zich te verliezen in een poging om de dynamiek van de conjunctuurcyclus te verklaren -- een onderwerp dat tot op de dag van vandaag omstreden blijft -- richtte Keynes zich op een vraag die beantwoord kon worden. En die \... het hardst een antwoord nodig had: hoe kunnen we dan meer werkgelegenheid creëren als de algemene vraag laag is -- ongeacht de oorzaak?[@174]
 :::
-
-[@174]
 
 Om succesvol te zijn in de moderne academische wereld is het vooral vereist om loyaal te zijn aan de centrale banken, in plaats van de coherentie of de waarde van je ideeën. Als gevolg daarvan wordt de conjunctuurcyclus nog steeds voorgesteld als een normaal, onvermijdelijk onderdeel van de werking van een moderne kapitalistische economie. Het zou net zo onvermijdelijk zijn als de overgang van dag naar nacht.
 
@@ -158,10 +150,8 @@ Wanneer de centrale bank de rente tot onder de marktprijs manipuleert door banke
 Friedrich Hayek vergeleek kredietexpansie met het vangen van een tijger bij zijn staart. Als je de tijger eenmaal bij zijn staart hebt, begint hij te rennen en zijn er geen goede oplossingen meer.
 
 ::: blockquotebox
-We hebben nu een tijger bij de staart: hoelang kan deze inflatie nog doorgaan? Als de tijger wordt vrijgelaten zal hij ons opeten; maar als hij steeds sneller rent terwijl wij wanhopig blijven volhouden, zijn we nog steeds de pineut! Ik ben blij dat ik hier niet zal zijn om de uiteindelijke uitkomst te zien.
+We hebben nu een tijger bij de staart: hoelang kan deze inflatie nog doorgaan? Als de tijger wordt vrijgelaten zal hij ons opeten; maar als hij steeds sneller rent terwijl wij wanhopig blijven volhouden, zijn we nog steeds de pineut! Ik ben blij dat ik hier niet zal zijn om de uiteindelijke uitkomst te zien.[@178]
 :::
-
-[@178]
 
 ## Centrale planning van de kapitaalmarkt
 
