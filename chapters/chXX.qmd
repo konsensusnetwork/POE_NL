@@ -2,7 +2,7 @@
 
 Deze bijlage gaat dieper in op Mises betoog uit Hoofdstuk 1 dat er geen constanten zijn in het menselijk handelen. Het is een diepgaande kritiek op de methoden van de moderne economie, en om dat te illustreren, bekijken we hoe de natuurwetenschappen kwantitatieve relaties formuleren op basis van constanten, aan de hand van het voorbeeld van de algemene gaswet in de thermodynamica. Deze stelt:
 
-*PV =nRT*, waar P de druk in bar is, is V het volume in liters, n is het aantal molen[^9] (waarbij elke mol 6,02214076 x 10e23 atomen is), T is de temperatuur in kelvin, en R de Regnault constante is van 0.083145 L.bar/mol.K.
+*PV =nRT*, waar P de druk in bar is, is V het volume in liters, n is het aantal molen [^9] (waarbij elke mol 6,02214076 x 10e23 atomen is), T is de temperatuur in kelvin, en R de Regnault constante is van 0.083145 L.bar/mol.K.
 
 Het is mogelijk om zon relatie vast te stellen, omdat metingen van daadwerkelijke fysieke verschijnselen worden uitgevoerd in eenheden die constant zijn en duidelijk zijn gedefinieerd door het Internationale Stelsel van Eenheden (SI), dat zeven basiseenheden definieert waarop alle wetenschappelijke metingen zijn gebouwd: de seconde, meter, kilogram, ampère, kelvin, mol en candela. Vanuit deze zeven eenheden kunnen alle andere fysiek betekenisvolle eenheden worden afgeleid.
 

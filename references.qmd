@@ -3,7 +3,7 @@ nocite: |
   @*
 ---
 
-# References {.unnumbered}
+# Bibliografie {.unnumbered}
 
 Ga naar [saifedean.com/poe](https://saifedean.com/poe) om toegang te krijgen tot:
 
@@ -15,9 +15,8 @@ En binnenkort:
 
 - Een studiegids van het boek*
 - Een online lessenpakket gebaseerd op de inhoud van dit leerboek
-- 
 
-![image](figures/saifedean_poe_qr_code.png){width="3cm"}
+![Volledige bibliografie](figures/saifedean_poe_qr_code.png){width="6cm"}
 
 ::: {#refs}
 :::

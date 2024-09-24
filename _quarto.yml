@@ -54,12 +54,8 @@ format:
   html:
     theme: [pandoc, theme-light.scss]
     number-sections: true
+    tbl-cap-location: bottom
     crossref:
       chapters: true
       fig-title: Figuur
       tbl-title: Tabel
-  pdf:
-    documentclass: scrreprt
-
-
-
