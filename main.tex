@@ -1,11 +1,20 @@
 % universal settings
-\documentclass[smalldemyvopaper,10pt,twoside,onecolumn,openright,extrafontsizes]{memoir}
+\documentclass[smalldemyvopaper,11pt,twoside,onecolumn,openright,extrafontsizes]{memoir}
 
 % PACKAGE DEFINITION
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{float}
+
 % typographical packages
 \usepackage{microtype} % for micro-typographical adjustments
 \usepackage{setspace} % for line spacing
-\usepackage{blindtext, color} % for manipulation of chapter titles
+
+\tolerance=1000
+\hyphenpenalty=1000
 
 \usepackage[dutch]{babel}	% language
 \selectlanguage{dutch}
@@ -27,14 +36,18 @@
 
 \usepackage{fancyhdr}
 \usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
 \usepackage{import}
 \usepackage{enumitem}
-\usepackage{geometry}
+\usepackage[footskip=8mm]{geometry}
 
-\usepackage[style=verbose-ibid, backend=biber, sorting=none]{biblatex}
+\usepackage[style=verbose-ibid, backend=biber, sorting=none, dashed=false]{biblatex}
+\setlength\bibitemsep{0.64\baselineskip}
 \addbibresource{main.bib}
 
 \usepackage{etoolbox}
+
+
 
 %captions in tables and figures
 \usepackage{caption}
@@ -59,45 +72,45 @@
 \makeatother
 
 
-
-
 % PHYSICAL DOCUMENT SETUP
 % media settings: bulk
-\setstocksize{9in}{6in}
-\settrimmedsize{9in}{6in}{*}
+\setstocksize{210mm}{148mm}
+\settrimmedsize{210mm}{148mm}{*}
 \setbinding{7mm}
-\setlrmarginsandblock{18mm}{18mm}{*}
-\setulmarginsandblock{28mm}{25mm}{*}
-
-
-
-% Formatting the index
-\usepackage{imakeidx}
-\makeindex[options= -s indexcaps.ist]
-\indexsetup{othercode=\scriptsize} % index font size
-
+\setlrmarginsandblock{10mm}{15mm}{*}
+\setulmarginsandblock{17.5mm}{18mm}{*}
 
 
 % Definitions
 \title{Grondbeginselen van de Economie}
-\newcommand{\subtitle}{Subtitel}
+\newcommand{\subtitle}{Als intellectueel weerwoord tegen de Keynesiaanse economische denkwijze}
 
 \author{\textbf{Saifedean Ammous}}
 
-\newcommand{\ISBNHC}{978-9916}
-\newcommand{\ISBNSC}{978-9916}
-\newcommand{\ISBNEBOOK}{978-9916}
+\newcommand{\ISBNHC}{978-9916-723-91-3}
+\newcommand{\ISBNSC}{978-9916-723-92-0}
+\newcommand{\ISBNEBOOK}{978-9916-723-94-4}
+\newcommand{\ISBNAUDIO}{978-9916-723-96-8}
 
 \newcommand{\press}{Konsensus Network}
-\newcommand{\editor}{Arnold Hubach (editor)}
+\newcommand{\editor}{Arnold Hubach}
+\newcommand{\editortwo}{Gèr van Gils}
+
 \newcommand{\translatorone}{Vincent Hondius}
-\newcommand{\translatortwo}{Others}
+\newcommand{\translatortwo}{Gill Mattheus}
+\newcommand{\translatorthree}{J.}
 
 \newcommand{\translators}{
 \textbf{Vertaling:}\\
-\editor\\
 \translatorone\\
+\translatortwo\\
+\translatorthree\\
+}
 
+\newcommand{\editors}{
+\textbf{Redactie:}\\
+\editor\\
+\editortwo\\
 }
 
 % custom second title page
@@ -124,11 +137,16 @@
   \vspace*{\drop}
   \rule{\textwidth}{0in}\par
   {\huge\textsc\thetitle\par}
-  {\Large\textsc\subtitle\par}
+  \vspace{2em}
+  {\large\textit{\subtitle}\par}
+  \vspace{2em}
   \rule{5.5cm}{0.3mm}\par
-  {\large\textit\theauthor\par}
-  \vspace{2mm}
+  \vspace{2em}
+  {\Large\textit\theauthor\par}
+  \vspace{3em}
   {\footnotesize\textit\translators\par}
+  \vspace{1em}
+  {\footnotesize\textit\editors\par}
   \vfill
   \includegraphics[width=3.5cm]{figures/knw.png}\par
   \end{center}
@@ -137,25 +155,24 @@
     
 
 % HEADER AND FOOTER MANIPULATION
-  % for normal pages
-  \nouppercaseheads
-  \headsep = 0.4in
-  \makepagestyle{mystyle} 
-  \setlength{\headwidth}{\dimexpr\textwidth+\marginparsep+\marginparwidth\relax}
-  \makerunningwidth{mystyle}{\headwidth}
-  \makeevenhead{mystyle}{}{{\scshape{Grondbeginselen van de Economie}}}{}
-  \makeoddhead{mystyle}{}{{\small\leftmark}}{}
-  \makeevenfoot{mystyle}{}{{\scriptsize\thepage}}{}
-  \makeoddfoot{mystyle}{}{{\scriptsize\thepage}}{}
-  \makeatletter
+% for normal pages
+\nouppercaseheads
+\headsep = 4mm
 
-  % for pages where chapters begin
-  \makepagestyle{plain}
-  \makerunningwidth{plain}{\headwidth}
-  \makeevenfoot{plain}{}{{\scriptsize\thepage}}{}
-  \makeoddfoot{plain}{}{{\scriptsize\thepage}}{}
-  \pagestyle{mystyle}
+\makepagestyle{mystyle} 
+\makeevenhead{mystyle}{\footnotesize\thepage}{{\scshape{Grondbeginselen van de Economie}}}{}
+\makeoddhead{mystyle}{}{{\small\leftmark}}{\footnotesize\thepage}
+\makeevenfoot{mystyle}{}{}{}
+\makeoddfoot{mystyle}{}{}{}
+\makeatletter
+
+% for pages where chapters begin
+\makepagestyle{plain}
+\makerunningwidth{plain}{\headwidth}
+\makeevenfoot{plain}{}{{\footnotesize\thepage}}{}
+\makeoddfoot{plain}{}{{\footnotesize\thepage}}{}
 % END HEADER AND FOOTER MANIPULATION
+\pagestyle{mystyle}
 
 % table of contents customisation
 \usepackage[]{tocloft}
@@ -183,20 +200,17 @@
 \fixpdflayout
 
 \usepackage{fontspec}
-\setmainfont{Garamond Premier Pro}[
-    Path=./fonts/,
-    UprightFont=* Medium.otf,
-    ItalicFont=* Italic.ttf,
-    BoldFont=* Bold.otf]
+\setmainfont{EB Garamond}
 
 % typographical settings for the body text
 \setlength{\parskip}{0em}
 \setlength{\parindent}{1em}
-\linespread{1.25}
+\linespread{1.12}
 
 % don't reset footnotes every chapter
 \usepackage{chngcntr}
 \counterwithout*{footnote}{chapter}
+
 
 % titlesec
 \usepackage{titlesec}
@@ -204,23 +218,29 @@
 \titleformat
     {\chapter}
     [display]
-    {\HUGE\centering\bfseries}
-    {\huge\centering\mdseries\chaptertitlename~~\thechapter}
+    {\huge\centering\bfseries}
+    {\Large\centering\mdseries\chaptertitlename~~\thechapter}
     {0pt}
-    {\vspace{36pt}}
+    {\vspace{28pt}}
 
 \titleformat{\part}
 [display]
 {\scshape\centering\normalfont\bfseries}
-{\huge\mdseries\partname ~ \thepart}
+{\Large\mdseries\partname ~ \thepart}
 {0pt}
 {\titlerule[1pt]\vspace{1pc}\HUGE}
 \titlespacing*{\part}{0pt}{100pt}{40pt}
 
 
-\titleformat{\section}[block]{\bfseries\Large}{}{0pt}{\centering}[]
+\titleformat{\section}[block]{\bfseries\large}{}{0pt}{\centering}[]
 \titleformat{\subsection}[block]{\itshape}{}{0pt}{\centering}[]
 \titlespacing*{\section}{0pt}{2em}{0.5em}
+
+% Formatting the index
+%\usepackage[font=footnotesize, justific=RaggedRight]{idxlayout}
+\usepackage{imakeidx}
+\makeindex[title=Index,columns=2,options={-s indexstyle.ist}]
+\indexsetup{othercode=\scriptsize} % index font size
 
 
 
@@ -250,6 +270,7 @@
   rightline=false,
   topline=false,
   bottomline=false,
+  linewidth=1.30pt,
   innerleftmargin=1em,
   innerrightmargin=0em,
   innertopmargin=0pt,
@@ -271,12 +292,13 @@ TURN OFF FOR OVERLEAF / PDF
 }
 \renewcommand{\autocite}[1]{\footnote{\cite{#1}}}
 
-
 % layout check and fix
 \checkandfixthelayout
 
 % BEGIN THE DOCUMENT
 \begin{document}
+%\righthyphenmin=3
+%\lefthyphenmin=3
 
 
 \makeatletter
@@ -299,34 +321,38 @@ TURN OFF FOR OVERLEAF / PDF
 
 \begin{scriptsize}
 \noindent \copyright\space 2023 Origineel: Saifedean Ammous
-\par\noindent Principles of Economics
+\par\noindent \textit{Principles of Economics}
 
 \vspace{0.5\baselineskip}
 
-\noindent \copyright\space 2023 Nederlandse vertaling: \editor,
-\translatorone
-\par\noindent \thetitle
+\noindent \copyright\space 2023 Nederlandse vertaling: \translatorone, \translatortwo ~\& \translatorthree
+\par\noindent \textit{\thetitle}
+
+\vspace{0.5\baselineskip}
+\par\noindent Onze dank gaat uit naar de redacteurs van dit boek:
+\vspace{0.25\baselineskip}
+
+\par\noindent \editor~(\href{https://bitcoinfocus.nl}{\textit{bitcoinfocus.nl}}),
+\par\noindent \editortwo~(\href{https://mises.nl}{\textit{mises.nl}})
+
+\vspace{0.5\baselineskip}
+\includegraphics[width=2.5cm]{figures/bitcoinfocus.png} \hspace{2em} \includegraphics[width=1cm]{figures/misesnl.png}
+\vspace{\baselineskip}
+
+\noindent \textit{Alle rechten voorbehouden.}
 
 \vspace{0.5\baselineskip}
 
-\noindent Alle rechten voorbehouden
+\noindent Uitgever: \href{https://konsensus.network}{\textit{konsensus.network}}
 
 \vspace{0.5\baselineskip}
 
-\noindent Uitgever: \href{https://konsensus.network}{\textit{Konsensus Network} - The Bitcoin Publishing House}
+\noindent Website van de auteur: \href{https://saifedean.com}{\textit{saifedean.com}}
+
 
 \vspace{0.5\baselineskip}
 
-\noindent Website van de auteur: \url{https://saifedean.com}
-
-\vspace{0.5\baselineskip}
-
-\noindent Ontwerp boekomslag \& zetwerk: Niko Laamanen \\
-\noindent Afbeeldingen boekomslag: 
-
-\vspace{0.5\baselineskip}
-
-\noindent Versie 0.0.1
+\noindent Versie 1.0.0
 
 \vspace{0.5\baselineskip}
 
@@ -340,6 +366,8 @@ TURN OFF FOR OVERLEAF / PDF
 
 \end{scriptsize}
 \vspace{3em}
+
+\par
 \noindent \href{https://konsensus.network}{\large\MakeUppercase \press  \hfill \includegraphics[width=0.5cm]{freestarfish.png}} \space\url{https://konsensus.network}
 
 
@@ -352,40 +380,66 @@ TURN OFF FOR OVERLEAF / PDF
 \paragraph{}
 \paragraph{}
 \begin{center}
-\itshape\large{\noindent{Voor mijn vader, die mij de belangrijkste les van dit boek heeft geleerd, nog voordat ik kon lezen; en voor mijn zoon, opdat hij het ook mag leren.}}
+\itshape\large{\noindent{
+Voor mijn vader, die me de meest waardevolle les van dit boek bijbracht, zelfs voordat ik kon lezen; en voor mijn zoon, zodat hij deze les eveneens kan leren.}}
 \end{center}
 \cleardoublepage
 \normalfont
 
-\pagestyle{mystyle}
-
+\pagestyle{empty}
 % sisällysluettelo
 \tableofcontents*
+\thispagestyle{empty}
+\pagestyle{mystyle}
 
 % Kirjailijasta
 
 \chapter{Over de auteur}
-Saifedean Ammous is een internationaal gerenommeerd auteur en econoom. In 2018 schreef Ammous \enquote{De Bitcoin Standaard: Het Decentrale Alternatief Voor Centraal Bankieren}, de bestseller over bitcoin, gepubliceerd in 36 talen. In 2021, publiceerde hij \enquote{De Fiat Standaard: Schuldenslavernij Als Alternatief Voor Menselijke Beschaving}, beschikbaar in 12 talen. Saifedean geeft op zijn online leerplatform Saifedean.com cursussen over de economie van bitcoin en economie in de traditie van de Oostenrijkse school en is host van \enquote{The Bitcoin Standard Podcast}.
+Saifedean Ammous is een internationaal gerenommeerd auteur en econoom. In 2018 schreef Ammous \enquote{{De Bitcoin Standaard: Het Decentrale Alternatief Voor Centraal Bankieren}}, de bestseller over bitcoin die in 36 talen is gepubliceerd. In 2021, publiceerde hij \enquote{{De Fiat Standaard: Schuldenslavernij Als Alternatief Voor Menselijke Beschaving}}, beschikbaar in 12 talen. Saifedean geeft cursussen over bitcoin en economie van de Oostenrijkse traditie op zijn online leerplatform Saifedean.com, en is de gastheer van \enquote{{The Bitcoin Standard Podcast}}.
 
-Saifedean was universitair economiedocent aan de Libanese American University van 2009 tot 2019. Hij heeft een doctoraat in Sustainable Development, behaald op Colombia University, een master in Development Management van de London School of Economics, en een bachelor diploma in Mechanical Engineering van de American University of Beirut.
+Saifedean was van 2009 tot 2019 economiedocent aan de {Lebanese American University}. Hij behaalde een doctoraat in Sustainable Development aan de {Colombia University}, een master in Development Management van de {London School of Economics}, en een bachelor diploma in Mechanical Engineering van de {American University of Beirut}.
 
 \input{chapters/ch00}
 
 \mainmatter
 
-\part{Fundamentals}
+% fluid figure numbers across the book
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
+\part{FUNDAMENTEN}
 \input{chapters/ch01}
 \input{chapters/ch02}
 \input{chapters/ch03}
-\part{Economie}
+
+\part{ECONOMIE}
 \input{chapters/ch04}
 \input{chapters/ch05}
+\input{chapters/ch06}
+%\addtocontents{toc}{\protect\newpage}
+\input{chapters/ch07}
+\input{chapters/ch08}
 
-\part{The Market Order}
-\part{Monetary Economics}
-\part{Civilization}
+\part{MARKTORDE}
+\input{chapters/ch09}
+\input{chapters/ch10}
+\input{chapters/ch11}
+\input{chapters/ch12}
+
+\part{MONETAIRE ECONOMIE}
+\input{chapters/ch13}
+\input{chapters/ch14}
+\input{chapters/ch15}
+
+
+\part{BESCHAVING}
+\input{chapters/ch16}
+\input{chapters/ch17}
+\input{chapters/ch18}
 
 \backmatter
+\input{chapters/chAppendix}
+
 
 % Graphics
 % \chapter*{Overzicht van figuren}
@@ -399,14 +453,31 @@ Saifedean was universitair economiedocent aan de Libanese American University va
 % %remove empty page between list of tables and index
 % \let\newpage\relax
 
- % bibliography
-\nocite{*} % This will display all entries in the .bib file regardless of whether they're cited in the text
-\printbibliography
+\chapter{Bibliografie}
+\begin{centering}
+\noindent Ga naar \href{https://saifedean.com/poe}{saifedean.com/poe} om toegang te krijgen tot: \par
+\vspace{1em}
+\textit{De volledige literatuurlijst}\par
+\vspace{1em}
+\textit{Bibliografie per hoofdstuk}\par
+\vspace{1em}
+\textit{Links naar extra leesmateriaal}\par
+\vspace{1em}
+\noindent En binnenkort:\par
+\vspace{1em}
+\textit{Een studiegids van het boek}\par
+\vspace{1em}
+\textit{Een online lessenpakket gebaseerd op de inhoud van dit leerboek}\par
+\end{centering}
+
+\begin{center}
+\includegraphics[width=3cm]{figures/saifedean_poe_qr_code.png}
+\end{center}
+
 
 % index
-\makeoddhead{mystyle}{}{{\small{Index}}}{}
+\parfillskip=0pt
 \printindex
-\addcontentsline{toc}{chapter}{Index}
 
 \end{document}
 % END THE DOCUMENT
