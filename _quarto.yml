@@ -53,6 +53,11 @@ csl: chicago-author-date.csl
 format:
   html:
     theme: [pandoc, theme-light.css]
+    number-sections: true
+    crossref:
+      chapters: true
+      fig-title: Figuur
+      tbl-title: Tabel
   pdf:
     documentclass: scrreprt
 
