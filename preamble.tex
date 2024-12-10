@@ -1,0 +1,258 @@
+% typographical packages
+\usepackage{microtype}
+\usepackage{setspace}
+\tolerance=6000
+\hyphenpenalty=1000
+
+% typographical settings for the body text
+\setlength{\parskip}{0em}
+\setlength{\parindent}{1em}
+\linespread{1.10}
+
+% DEFINITIONS TITLE PAGE / COPYRIGHT
+\newcommand{\titleoriginal}{Principles of Economics}
+\newcommand{\subtitleoriginal}{}
+\newcommand{\originalpublisher}{The Saif House}
+\newcommand{\yearoriginal}{2023}
+\newcommand{\subtitletranslation}{Als intellectueel weerwoord tegen de Keynesiaanse economische denkwijze}
+\newcommand{\yeartranslation}{2024}
+\newcommand{\stringtranslation}{Vertaling}
+\newcommand{\stringlicense}{Dit werk is gelicentieerd onder de CC BY-NC-ND 4.0-licentie. Om een kopie van deze licentie te bekijken, ga naar \url{https://creativecommons.org/licenses/by-nc-nd/4.0/}. }
+\newcommand{\stringpublisher}{Uitgever}
+\newcommand{\ISBNHC}{978-9916-723-91-3}
+\newcommand{\ISBNSC}{978-9916-723-92-0}
+\newcommand{\ISBNEBOOK}{978-9916-723-94-4}
+\newcommand{\ISBNAUDIO}{978-9916-723-96-8}
+\newcommand{\press}{Konsensus Network}
+\newcommand{\translatorone}{Vincent Hondius}
+\newcommand{\translatortwo}{Gill Mattheus}
+\newcommand{\translators}{
+\large\textit{\stringtranslation:}\\
+\translatorone\\
+\translatortwo\\
+}
+
+% PHYSICAL DOCUMENT SETUP
+\setstocksize{210mm}{148mm}
+\settrimmedsize{210mm}{148mm}{*}
+\setbinding{8mm}
+\setlrmarginsandblock{12mm}{18mm}{*}
+\setulmarginsandblock{20mm}{15mm}{*}
+
+% FONTS
+\usepackage{fontspec}
+\setmainfont{stone-serif}[
+    Path=./fonts/stone-serif-itc-pro/,
+    Scale=0.76,
+    Extension=.OTF,
+    UprightFont=*-Regular,
+    BoldFont=*-SemiBd,
+    ItalicFont=*-MediumIt,
+    BoldItalicFont=*-SemiBdIt
+    ]
+
+\setsansfont{stone-sans}[
+    Path=./fonts/stone-sans/,
+    Scale=0.85,
+    Extension=.otf,
+    UprightFont=*-Medium,
+    BoldFont=*-Semibold,
+    ItalicFont=*-MediumItalic,
+    BoldItalicFont=*-SemiBoldItalic
+    ]
+
+\usepackage{lettrine}
+\setcounter{DefaultLines}{3}
+\renewcommand{\DefaultLoversize}{0.1}
+\renewcommand{\DefaultLraise}{0}
+\renewcommand{\LettrineTextFont}{}
+\setlength{\DefaultFindent}{\fontdimen2\font}
+\setlength{\DefaultNindent}{0em}
+
+% custom second title page
+\makeatletter
+\newcommand*\halftitlepage{\begingroup % Misericords, T&H p 153
+  \setlength\drop{0.1\textheight}
+  %\begin{center}
+  \vspace*{\drop}
+  \rule{\textwidth}{0in}\par
+  {\Large\sffamily\thetitle\par}
+  \rule{\textwidth}{0in}\par
+  \vfill
+  %\end{center}
+\endgroup}
+\makeatother
+
+% custom title page
+\makeatletter
+\newlength\drop
+\newcommand*\titleM{\begingroup % Misericords, T&H p 153
+  \setlength\drop{0.15\textheight}
+  %\begin{center}
+  \vspace*{\drop}
+  {\HUGE\sffamily\thetitle\par}
+  \vspace{2em}
+  {\large\sffamily\textit\subtitletranslation\par}
+  \vspace{4em}
+  \rule{5.5cm}{0.3mm}\par
+  \vspace{4em}
+  {\Large\sffamily\textit\theauthor\par}
+  \vspace{6em}
+  % {\footnotesize\sffamily\textit\translators\par}
+  \vfill
+  \includegraphics[width=3.5cm]{figures/knw.png}\par
+  %\end{center}
+\endgroup}
+\makeatother
+
+% copyright page
+\makeatletter
+\newcommand*\copyrightpage{\begingroup
+  \setlength\drop{0.1\textheight}
+  \vphantom{just for the drop}
+  \vfill
+  \begin{footnotesize}
+  \noindent \copyright\space \yearoriginal: \theauthor
+  \par\noindent \textit{\titleoriginal: \subtitleoriginal}
+  \par\noindent Uitgegeven door \space \originalpublisher
+  \vspace{\baselineskip}
+  \par\noindent \copyright\space \yeartranslation\space \stringtranslation: \translatorone
+  \par\noindent \textit{\thetitle: \subtitletranslation}
+  \vspace{0.5\baselineskip}
+  \par\noindent \textit{\stringlicense}
+  \vspace{0.5\baselineskip}
+  \par\noindent \stringpublisher: \href{https://konsensus.network}{\textit{konsensus.network}}
+  \vspace{\baselineskip}
+  \par\noindent v1.0.0
+  \vspace{0.5\baselineskip}
+  \setlength{\parindent}{2em}% default 20pt
+  \par\noindent ISBN \ISBNHC \:Hardcover
+  \par\hspace{0.28\parindent}\ISBNSC \:Paperback
+  \par\hspace{0.28\parindent}\ISBNEBOOK \:E-book\par
+  \setlength{\parindent}{0pt}
+  \end{footnotesize}
+  \vspace{3em}
+  \par\noindent \href{https://konsensus.network}{\includegraphics[width=1cm]{figures/freestarfish.png}}
+  \par\noindent \href{https://konsensus.network}{\includegraphics[width=3.5cm]{figures/knw.png}}
+  \setcounter{footnote}{0}
+  \clearpage
+\endgroup}
+\makeatother
+
+% HEADER AND FOOTER MANIPULATION
+% for normal pages
+\nouppercaseheads
+\headsep = 8mm
+\makepagestyle{mystyle} 
+\makeevenhead{mystyle}{\scriptsize\sffamily\mdseries\thepage}{}{}
+\makeoddhead{mystyle}{\scriptsize\sffamily\mdseries\leftmark}{}{\scriptsize\sffamily\mdseries\thepage}
+\makeevenfoot{mystyle}{}{}{}
+\makeoddfoot{mystyle}{}{}{}
+\makeatletter
+
+% for pages where chapters begin
+\makepagestyle{plain}
+\makerunningwidth{plain}{\headwidth}
+\makeevenfoot{plain}{}{}{}
+\makeoddfoot{plain}{}{}{}
+\pagestyle{mystyle}
+
+% TOC
+\usepackage[]{tocloft}
+\renewcommand{\cftsectiondotsep}{\cftnodots}
+\renewcommand{\cftpartfont}{\Large\sffamily\MakeUppercase}
+\renewcommand{\cftchapterfont}{\normalfont\sffamily}
+\renewcommand{\cftsectionfont}{\small\sffamily}
+\renewcommand{\cftchapterpagefont}{\normalfont}
+\renewcommand{\cftchapterpresnum}{HOOFDSTUK\space}
+\renewcommand{\cftchapternumwidth}{9em}
+
+\setlength{\cftchapterindent}{2em}
+\setlength{\cftbeforechapterskip}{0.1em}
+\setlength{\cftbeforepartskip}{1.5em}
+
+\setsecnumdepth{chapter}
+\cftpagenumbersoff{part}
+\setcounter{tocdepth}{0}
+
+
+% Redefine footnote presentation
+\makeatletter
+\renewcommand\@makefntext[1]{%
+  \noindent\hb@xt@2em{% <-- Box of fixed size for footnote number and space
+    \@thefnmark\quad}% <-- Footnote number followed by a quad space
+  \parbox[t]{\dimexpr\linewidth-2em}{#1}% <-- Parbox to control the width of footnote content
+}
+\makeatother
+
+% Endnotes
+% \usepackage{enotez} % Include the enotez package
+% % Automatically print endnotes at the end of each chapter
+% \let\oldchapter\chapter
+% \renewcommand{\chapter}[1]{%
+%   \oldchapter{#1}%
+%   \newpage
+%   \printendnotes % Print endnotes at the end of each chapter
+%   \clearpage
+% }
+
+% % Redefine \footnote to \endnote
+% \let\oldfootnote\footnote
+% \renewcommand{\footnote}[1]{\endnote{#1}}
+
+% layout check and fix
+\checkandfixthelayout
+
+% COUNTERS FOOTNOTES
+\usepackage{chngcntr}
+\counterwithout*{footnote}{chapter}
+
+% TITLE FORMATTING
+\usepackage{titlesec}
+\titleformat
+    {\chapter}[display]
+    {\huge\sffamily}
+    {\Large\sffamily\chaptertitlename\space \thechapter}
+    {0pt}
+    {\vspace{28pt}}
+
+\titleformat
+  {\section}[block]
+  {\sffamily\large\mdseries}
+  {}
+  {0pt}
+  {}
+  
+\titlespacing*{\section}{0pt}{3em}{0.5em}
+
+\titleformat{\subsection}{\sffamily\bfseries}{}{}{}
+\titlespacing*{\subsection}{0pt}{2em}{0em}
+
+% QUOTE FORMATTING
+\renewenvironment{quote}%
+               {\list{}{\rightmargin=.3cm\leftmargin=.3cm}%
+                \itshape \item[]}% <- The effect of \samepage is local!!!
+               {\endlist}
+
+% LAYOUT CHECK AND FIX
+\checkandfixthelayout
+
+% CUSTOM TITLE PAGE
+\makeatletter
+\def\@maketitle{%
+  % the half title page
+  \pagestyle{empty}
+  \halftitlepage
+  \cleardoublepage
+
+  % the title page
+  \titleM
+  \clearpage
+
+  % the copyright page
+  \copyrightpage
+  \cleardoublepage
+  \pagestyle{mystyle}
+}
+\makeatother
+% END PREAMBLE

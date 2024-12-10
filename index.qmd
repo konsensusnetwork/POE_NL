@@ -1,5 +1,35 @@
+---
+about:
+  template: trestles
+  image: cover.png
+  links:
+    - icon: shop
+      href: https://bitcoinbook.shop/products/grondbeginselen-van-de-economie
+      text: "Shop" 
+      aria-label: "Online bookstore"
+    # - icon: amazon
+    #   href: https://amazon.com
+    #   text: "Amazon"
+    #   aria-label: "Amazon"      
+    - icon: book
+      href: ./chapters/CH00b.qmd
+      text: "Lees online"
+      aria-label: "Lees online"          
+navbar: true
+sidebar: false
+page-layout: full
+format:
+  html:
+    grid:
+      margin-width: 0px
+      sidebar-width: 0px
+      body-width: 1400px
+      gutter-width: 25px
+---
 # Over de auteur {.unnumbered}
 
 Saifedean Ammous is een internationaal gerenommeerd auteur en econoom. In 2018 schreef Ammous "De Bitcoin Standaard: Het Decentrale Alternatief Voor Centraal Bankieren", de bestseller over bitcoin die in 36 talen is gepubliceerd. In 2021, publiceerde hij "De Fiat Standaard: Schuldenslavernij Als Alternatief Voor Menselijke Beschaving", beschikbaar in 12 talen. Saifedean geeft cursussen over bitcoin en economie van de Oostenrijkse traditie op zijn online leerplatform Saifedean.com, en is de gastheer van "The Bitcoin Standard Podcast".
 
 Saifedean was van 2009 tot 2019 economiedocent aan de Lebanese American University. Hij behaalde een doctoraat in Sustainable Development aan de Colombia University, een master in Development Management van de London School of Economics, en een bachelor diploma in Mechanical Engineering van de American University of Beirut.
+
+{{< include buy-button.qmd >}}

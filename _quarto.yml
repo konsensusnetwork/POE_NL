@@ -1,61 +1,119 @@
 project:
   type: book
+  preview: 
+    port: 4200
+    browser: false
 
 book:
   title: "Grondbeginselen van de Economie"
+  output-file: main
   subtitle: "Als intellectueel weerwoord tegen de Keynesiaanse economische denkwijze"
   author: "Saifedean Ammous"
   translator: "Gill Mattheus & Vincent Hondius"
-  cover-image: cover.png
   isbn: "978-9916-723-91-3"
+  license: CC BY-NC-ND
   language: nl
   original-title: "Principles of Economics"
+  publisher: Konsensus Network
   date: "9/24/2024"
+  search:
+      location: sidebar
+      type: overlay
+  sidebar:
+      style: floating
+      border: true
+  navbar:
+      logo: cover.png
+      logo-alt: Cover
+      right:
+        - icon: github
+          href: https://github.com/konsensusnetwork/POE_NL
+          aria-label: GitHub
+        - icon: shop
+          href: https://bitcoinbook.shop/products/grondbeginselen-van-de-economie
+          aria-label: Shop
+  page-footer:
+      left:
+        - text: "© 2024 Konsensus Network"
+      center:
+        - text: "License"
+          href: license.qmd
+      right:
+        - icon: twitter
+          href: https://twitter.com/konsensusn
+          aria-label: Twitter
+        - icon: github
+          href: https://github.com/konsensusnetwork
+          aria-label: Github
+        - icon: linkedin
+          href: https://www.linkedin.com/konsensusnetwork
+          aria-label: LinkedIn
+        - icon: youtube
+          href: https://www.youtube.com/konsensusnetwork
+          aria-label: YouTube
   open-graph: true
   chapters:
-    - index.qmd
-    - chapters/ch00.qmd
-    - chapters/ch00b.qmd
-    - part: "FUNDAMENTEN"
-      chapters:
-        - chapters/ch01.qmd
-        - chapters/ch02.qmd
-        - chapters/ch03.qmd
-    - part: "ECONOMIE"
-      chapters:
-        - chapters/ch04.qmd
-        - chapters/ch05.qmd
-        - chapters/ch06.qmd
-        - chapters/ch07.qmd
-        - chapters/ch08.qmd
-        - chapters/ch09.qmd
-    - part: "MARKTORDE"
-      chapters:
-        - chapters/ch10.qmd
-        - chapters/ch11.qmd
-        - chapters/ch12.qmd
-    - part: "MONETAIRE ECONOMIE"
-      chapters:
-        - chapters/ch13.qmd
-        - chapters/ch14.qmd
-        - chapters/ch15.qmd
-    - part: "BESCHAVING"
-      chapters:
-        - chapters/ch16.qmd
-        - chapters/ch17.qmd
-        - chapters/ch18.qmd
-    - chapters/chXX.qmd
-    - references.qmd
+      - index.qmd
+      - chapters/ch00.qmd
+      - chapters/ch00b.qmd
+      - part: "FUNDAMENTEN"
+        chapters:
+          - chapters/ch01.qmd
+          - chapters/ch02.qmd
+          - chapters/ch03.qmd
+      - part: "ECONOMIE"
+        chapters:
+          - chapters/ch04.qmd
+          - chapters/ch05.qmd
+          - chapters/ch06.qmd
+          - chapters/ch07.qmd
+          - chapters/ch08.qmd
+          - chapters/ch09.qmd
+      - part: "MARKTORDE"
+        chapters:
+          - chapters/ch10.qmd
+          - chapters/ch11.qmd
+          - chapters/ch12.qmd
+      - part: "MONETAIRE ECONOMIE"
+        chapters:
+          - chapters/ch13.qmd
+          - chapters/ch14.qmd
+          - chapters/ch15.qmd
+      - part: "BESCHAVING"
+        chapters:
+          - chapters/ch16.qmd
+          - chapters/ch17.qmd
+          - chapters/ch18.qmd
+      - chapters/chXX.qmd
+      - references.qmd
 
 bibliography: main.bib
 csl: chicago-author-date.csl
 
 format:
   html:
-    theme: [pandoc, theme-light.scss]
-    number-sections: true
-    tbl-cap-location: bottom
-    crossref:
-      chapters: true
-      fig-title: Figuur
-      tbl-title: Tabel
+    lang: nl
+    theme:
+      light: [lux, theme.scss, theme-light.scss]
+      dark: [lux, theme.scss, theme-dark.scss]
+    linestretch: 1.6
+    number-depth: 1
+  pdf:
+    lang: nl
+    documentclass: memoir
+    classoption: smalldemyvopaper,11pt,twoside,onecolumn,openright,extrafontsizes, hidelinks
+    papersize: a5
+    toc-depth: 1
+    toc-title: Inhoudsopgave
+    keep-tex: true
+    colorlinks: false
+    include-in-header:
+      - preamble.tex
+
+  epub:
+    cover-image: cover.png
+    toc: true
+    toc-depth: 1
+    toc-title: Inhoudsopgave
+    creator: Konsensus Network
+    lang: "nl-NL"
